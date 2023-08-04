@@ -1,0 +1,182 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+
+body {
+  min-height: 90vh;
+  min-width: 90vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(25, 32, 40, 1) 100%);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-family: fantasy;
+  font-size: 13px;
+  height: 80px;
+  border-bottom: solid 1px rgb(48, 48, 48);
+}
+
+header div {
+  height: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+header h2 {
+  padding-left: 20px;
+}
+
+/* Struct Program */
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 90vh;
+}
+
+.boxBar {
+  padding: 20px 10px;
+  width: 20%;
+}
+
+.boxMessage {
+  width: 75%;
+  border-left: solid 1px rgb(48, 48, 48);
+}
+
+.message {
+  height: 100%;
+}
+
+/* Strcut Chats */
+
+
+.boxBar .barOptions {
+  padding: 20px 40px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 800;
+  padding-bottom: 40px;
+  font-family: sans-serif;
+  justify-content: space-between;
+}
+
+.boxBar .chat .chatImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(32, 31, 31);
+}
+
+.boxBar .chat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.boxBar .chatBody {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.boxBar .chatBody p {
+  color: #e8e4e4;
+}
+
+.boxBar .timestamp {
+  font-family: fantasy;
+  font-size: 12px;
+  color: #777777;
+}
+
+
+.boxBar .chat:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(22, 33, 38, 0.344) 0%, rgba(25, 32, 40, 0) 100%);
+}
+
+/* Struct Messages */
+
+.boxInfo {
+  height: 15%;
+}
+
+.boxMessages {
+  padding: 15px;
+  height: 85%;
+}
+
+.boxInput {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+}
+
+.boxInput input {
+  padding-left: 15px;
+  border-radius: 10px;
+  background-color: rgba(9, 101, 240, 0);
+  border: solid 1px rgb(48, 48, 48);
+  width: 92%;
+  height: 50%;
+}
+
+.boxInput button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(9, 101, 240, 0);
+  border: none;
+  width: 5%;
+  height: 50%;
+}
+
+.boxInput button:hover {
+  background-color: rgba(24, 22, 38, 0.344);
+}
+
+
+/* Mensage Style */
+
+.msg {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.msgStart {
+  justify-content: flex-start;
+}
+
+.msgEnd {
+  justify-content: flex-end;
+}
+
+.msgContent {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.msgContentStart {
+  background-color: rgb(25, 24, 42);
+}
+
+.msgContentEnd {
+  background-color: rgb(78, 56, 158);
+}
+
+.text {
+  font-family: fantasy;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+}
